@@ -23,3 +23,9 @@ This Single Page App serves as an example of the [User Initiated Account Linking
 	* run `npm install -g serve`
 	* run `serve` in the project's folder to start a server
 4. Go to the [index page](http://localhost:3000) and start playing with the app! 
+
+## Running the App with Docker
+
+To run the sample with [Docker](https://www.docker.com/), make sure you have `docker` installed.
+
+Follow steps 1 and 2 in the [Install Locally](#install-locally) section to set up the clientId and domain, then run `sh exec.sh` to build and run the Docker image.
